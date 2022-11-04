@@ -17,6 +17,8 @@ steps:
   inputs:
     SonarCloud: 'sonar'
     organization: 'b4b4y4g4x'
+    projectKey: 'b4b4y4g4x_pet-clinic'
+    projectName: 'pet-clinic'
     scannerMode: 'Other'
 - task: Gradle@3
   inputs:
